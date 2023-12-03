@@ -2,8 +2,6 @@
 
 > [免责声明](https://github.com/xream/scripts/blob/main/README.md)
 
-> 欢迎加入群组 [https://t.me/zhetengsha_group](https://t.me/zhetengsha_group)
-
 特点:
 
 - 支持修改 `host` 混淆, `path` 路径, `port` 端口, `method` 请求方式(网络为 `http` 时, 可能需要设置此项)
@@ -16,7 +14,7 @@
 
 ## Sub-Store 脚本使用方法
 
-打开 Sub-Store => 订阅 => 编辑 => 节点操作+ => 脚本操作 => 链接 => 粘贴 [https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js](https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js) => 保存
+打开 Sub-Store => 订阅 => 编辑 => 节点操作+ => 脚本操作 => 链接 => 粘贴 [https://raw.githubusercontent.com/Sub-Store-Lite/scripts/main/surge/modules/sub-store-scripts/lite/index.js](https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js) => 保存
 
 引用格式如下：
 
