@@ -1,6 +1,6 @@
 # Sub-Store Lite
 
-> [免责声明](https://github.com/xream/scripts/blob/main/README.md)
+> [免责声明](https://github.com/wchenyi/Sub-Store-Lite/blob/main/README.md)
 
 特点:
 
@@ -14,7 +14,7 @@
 
 ## Sub-Store 脚本使用方法
 
-打开 Sub-Store => 订阅 => 编辑 => 节点操作+ => 脚本操作 => 链接 => 粘贴 [https://raw.githubusercontent.com/Sub-Store-Lite/scripts/main/surge/modules/sub-store-scripts/lite/index.js](https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js) => 保存
+打开 Sub-Store => 订阅 => 编辑 => 节点操作+ => 脚本操作 => 链接 => 粘贴 [https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js](https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js) => 保存
 
 引用格式如下：
 
@@ -22,7 +22,7 @@
 
 设置 Host 混淆为 `a.189.cn`, 为修改了 Host 的节点名添加后缀 `[北停]`
 
-`https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js#host=a.189.cn&hostSuffix=[北停]`
+`https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js#host=a.189.cn&hostSuffix=[北停]`
 
 ### vmess `http` 节点(即所谓的 `tcp` 节点)
 
@@ -32,11 +32,11 @@
 
 1. 输出给 Clash 系的客户端, 请加上 `array` `true`
 
-`https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js#hostPrefix=[钉钉]&host=tms.dingtalk.com&port=80&array=true`
+`https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js#hostPrefix=[钉钉]&host=tms.dingtalk.com&port=80&array=true`
 
 2. 输出给 非 Clash 系的客户端, 应该不用加上 `array`
 
-`https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js#hostPrefix=[钉钉]&host=tms.dingtalk.com&port=80`
+`https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js#hostPrefix=[钉钉]&host=tms.dingtalk.com&port=80`
 
 ### 注意
 
@@ -44,7 +44,7 @@
 
 建议套一下 github 加速服务, 例如
 
-`https://mirror.ghproxy.com/https://raw.githubusercontent.com/xream/scripts/main/surge/modules/sub-store-scripts/lite/index.js`
+`https://mirror.ghproxy.com/https://raw.githubusercontent.com/wchenyi/Sub-Store-Lite/main/surge/modules/sub-store-scripts/lite/index.js`
 
 如果 mirror.ghproxy.com 寄了 可以自己换别的 github 加速服务
 
